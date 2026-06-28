@@ -1,0 +1,22 @@
+# Track the system structure, NOT harvested buyer data or client-sensitive output.
+
+# Raw harvested buyer language (may contain client/PII data)
+*/data/raw/*
+!*/data/raw/.gitkeep
+
+# Per-source extractions (derived from raw)
+*/data/extracted/*
+!*/data/extracted/.gitkeep
+
+# Generated outputs (real buyer profiles, real prospects)
+*/output/*
+!*/output/.gitkeep
+
+# Filled memory (priors learned from real data) — keep schema, ignore contents
+*/memory/patterns.md
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
