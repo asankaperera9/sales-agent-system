@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "profile-viewer",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "01-buyer-mind-decoder/output", "-p", "3131", "--no-clipboard", "--single"],
+      "port": 3131
+    }
+  ]
+}
